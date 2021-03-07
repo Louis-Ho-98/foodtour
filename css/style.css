@@ -1,0 +1,267 @@
+* {
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Oxygen:wght@300;400;700&family=Pacifico&family=Roboto+Slab:wght@400;500;600&family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap");
+#header {
+  background: linear-gradient(180deg, #d53369 0%, #daae51 100%);
+}
+
+header,
+section {
+  overflow-x: hidden;
+}
+
+#header a,
+.form-inline input,
+.form-inline button {
+  color: white;
+  font-family: "Roboto Slab", serif;
+}
+#header .banner-text h6 {
+  letter-spacing: 5px;
+  font-family: "Pacifico", cursive;
+  color: white;
+}
+
+#header .banner-text button {
+  border-radius: 30px;
+}
+
+#header .banner .banner-text h1 {
+  font-size: 50px;
+}
+
+#header .banner .banner-text h1,
+#header .banner .banner-text p,
+#header .banner .banner-text button {
+  font-family: "Roboto Slab", serif;
+}
+
+#header .banner .col-md-5 img {
+  height: 560px;
+}
+
+#header .banner .col-md-7 {
+  padding: 20vmin 5vmin 10vmin 5vmin;
+}
+
+#section-1 {
+  padding: 20vmin 0;
+}
+
+#section-1 img {
+  width: 80%;
+  opacity: 0.8;
+}
+
+#section-1 .col-md-6:last-child {
+  position: relative;
+}
+
+#section-1 .col-md-6 .panel {
+  position: absolute;
+  top: 7vmin;
+  left: -18vmin;
+  background: white;
+  border-radius: 3px;
+  padding: 10vmin 3vmin 5vmin 10vmin;
+  box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  text-align: left;
+}
+.sm-after {
+  padding: 2em 4.5em 2em 4.5em;
+}
+.sm-after .row .panel {
+  border-radius: 3px;
+  box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+  background: white;
+}
+
+#section-1 .col-md-6 .panel h1 {
+  font-weight: bold;
+  font-size: 2em;
+  padding: 0.43em 0;
+}
+
+#section-1 .col-md-6 .panel p {
+  font-size: 0.9em;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* section 2 start*/
+#section-2 .cover {
+  height: 55vmin;
+  width: 100%;
+  background: url(../img/cover-2.webp) no-repeat 25%;
+
+  background-size: 100%;
+}
+#section-2 .cover .content {
+  height: 100%;
+  padding-top: 19vmin;
+  background: rgba(0, 0, 0, 0.5);
+}
+#section-2 .cover .content h1 {
+  color: whitesmoke;
+  font-family: "Pacifico", cursive;
+  font-size: 6vmin;
+}
+#section-2 .cover .content p {
+  font-size: 2vmin;
+  color: #e5e5e5;
+}
+
+#section-2 .numbers .rect {
+  position: relative;
+  top: -15vmin;
+  width: 16rem;
+  height: 12rem;
+  padding-top: 5vmin;
+  margin: 2vmin;
+  background: white;
+  box-shadow: 1px 2px 50px 0px rgba(249, 107, 71, 0.3);
+  border-radius: 10px;
+}
+#section-2 .numbers .rect h1 {
+  font-size: 4rem;
+  color: tomato;
+}
+#section-2 .numbers .rect p {
+  font-family: "Pacifico", cursive;
+}
+
+.purchase h1:first-child {
+  font-size: 3em;
+  font-family: "Pacifico", cursive;
+}
+.purchase .cards .card .card-body {
+  padding: 0;
+}
+.purchase .cards .card {
+  width: 19rem;
+  height: 29rem;
+  padding: 0;
+  overflow-y: hidden;
+}
+.card-background {
+  height: 20%;
+  background: url(../img/North-America.webp);
+  background-size: 100%;
+  color: tomato;
+
+  padding-top: 5vmin;
+  border-radius: 4px;
+  font-family: "Pacifico", cursive;
+  font-size: 2rem;
+}
+
+.title-Euro {
+  background: url(../img/europe.webp);
+  background-size: 100%;
+}
+.title-SouthAsia {
+  background: url(../img/South-Asia.webp);
+  background-size: 100%;
+}
+
+.purchase .cards .card .card-body .card-text {
+  padding: 2rem 2rem;
+}
+.purchase .cards .card .card-body .price {
+  padding: 10vmin 0;
+
+  background: rgba(208, 241, 241, 0.199);
+  border-top-left-radius: 160px;
+  border-top-right-radius: 160px;
+}
+
+.purchase .cards .card .card-body .price p {
+  font-size: 2rem;
+}
+.purchase .cards .card .card-body .price .btn {
+  padding: 0.5rem 3rem;
+}
+/* section 2 end*/
+/* section 3 start */
+#section-3 {
+  padding: 3rem 3rem;
+  background: linear-gradient(180deg, #d53369 0%, #daae51 100%);
+  color: whitesmoke;
+}
+
+#section-3 .col-sm-4 .desktop,
+#section-3 .col-sm-4 .googlePlay,
+#section-3 .col-sm-4 .appStore {
+  padding: 2vmin 4.5vmin;
+  margin: 0.5em;
+}
+#section-3 .col-sm-4 h3 {
+  font-size: 3vmin;
+}
+
+/* section 3 end */
+/* section 4 start */
+
+#section-4 .card-img-top img {
+  width: 100%;
+  height: 190px;
+}
+#section-4 h1:first-child {
+  font-family: "Roboto slab", serif;
+}
+#section-4 .card .card-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+/* section 4  end */
+/* footer start */
+footer {
+  padding: 13vmin 18vmin;
+  background: rgba(0, 0, 0, 0.815);
+  overflow: hidden;
+}
+
+footer h3 {
+  color: whitesmoke;
+}
+footer p > span {
+  color: #ff512f;
+}
+footer .newsletter input {
+  border: none !important;
+}
+footer .newsletter a {
+  text-decoration: none;
+}
+footer .input-group-text {
+  background: linear-gradient(to bottom, #dd2476, #ff512f);
+  border: none;
+}
+footer .followUs i {
+  color: #dd2476;
+  margin-right: 1rem;
+}
+/* footer end */
+
+.sticky {
+  position: fixed;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.815);
+  z-index: 9999;
+  transition: all 1.5s ease;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.dropdown-item:focus,
+.dropdown-item:active,
+input:focus {
+  outline: none !important;
+  box-shadow: none;
+  background: white;
+}

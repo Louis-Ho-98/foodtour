@@ -1,0 +1,38 @@
+[
+  {
+    "continent": "South America",
+    "imgUrl": "./img/southAmerica.jpeg",
+    "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, nulla?",
+    "price": "$956.99"
+  },
+  {
+    "continent": "East Asia",
+    "imgUrl": "./img/eastAsia.jpeg",
+    "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, nulla?",
+    "price": "$977.99"
+  },
+  {
+    "continent": "North Africa",
+    "imgUrl": "./img/northAfrica.jpeg",
+    "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, nulla?",
+    "price": "$859.99"
+  },
+  {
+    "continent": "Central Asia",
+    "imgUrl": "./img/centralAsia.jpeg",
+    "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, nulla?",
+    "price": "$829.99"
+  },
+  {
+    "continent": "South Africa",
+    "imgUrl": "./img/southAfrica.jpeg",
+    "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, nulla?",
+    "price": "$937.99"
+  },
+  {
+    "continent": "Australia",
+    "imgUrl": "./img/australia.jpeg",
+    "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, nulla?",
+    "price": "$999.99"
+  }
+]
